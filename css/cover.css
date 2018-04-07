@@ -64,6 +64,11 @@ body {
     margin-bottom: 0;
 }
 
+nav {
+    font-weight: 700;
+}
+
+/*
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
@@ -86,7 +91,7 @@ body {
 .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
-}
+}*/
 
 @media (min-width: 48em) {
     .masthead-brand {

@@ -1,0 +1,38 @@
+/*#nav {
+    background-color: #333333;
+
+}
+
+#nav .navbar-brand {
+    font-weight: 700;
+    color: rgba(255,255,255,1);
+}
+
+#nav .nav-link {
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 1rem;
+}
+
+#nav .nav-link:hover,
+#nav .nav-link:focus {
+    color: rgba(255,255,255,1);
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+#nav .active {
+    color: rgba(255,255,255,1);
+    border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+*/
+
+nav {
+    background-color: #333333;
+    font-weight: 700;
+}
+
+
