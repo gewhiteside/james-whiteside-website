@@ -38,9 +38,12 @@ nav {
     height: 32rem;
     background-color: #777;
 }
-.carousel-item > img {
+.carousel-item > img.horizontal {
+    max-height: 100%;
+}
+
+.carousel-item > img.vertical {
     position: absolute;
-    top: -30%;
     max-width: 100%;
 }
 
@@ -60,6 +63,9 @@ nav {
     margin-right: .75rem;
     margin-left: .75rem;
 }
+.marketing i {
+    padding-bottom: 2rem;
+}
 
 
 /* Featurettes
@@ -76,6 +82,10 @@ nav {
     letter-spacing: -.05rem;
 }
 
+.featurette img {
+    object-fit: contain;
+    border-radius: 8px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -93,8 +103,29 @@ nav {
     }
 }
 
-@media (min-width: 62em) {
-    .featurette-heading {
-	margin-top: 7rem;
+/* iPad/ tablet screens */
+@media (min-aspect-ratio: 3/5) {
+    .carousel-item > img.horizontal {
+	max-height: none;
+	max-width: 100%;
+    }
+
+    .carousel-item > img.vertical {
+	position: absolute;
+	top: -80%;
+    }
+}
+
+/* desktop screens */
+@media (min-aspect-ratio: 3/3) {
+    .carousel-item > img.horizontal {
+	position: absolute;
+	top: -15%;
+    }
+
+    
+    .carousel-item > img.vertical {
+	position: absolute;
+	top: -400px;
     }
 }
