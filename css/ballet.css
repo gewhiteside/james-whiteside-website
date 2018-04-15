@@ -117,11 +117,6 @@ nav {
 }
 
 @media(max-aspect-ratio: 9/16) {
-    .carousel-item > img {
-	//max-width: none;
-	//max-height: 120%;
-    }
-
     #first-image {
 	content:url("../img/ballet-1-vert.jpg");
     }
