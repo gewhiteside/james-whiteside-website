@@ -31,12 +31,14 @@ nav {
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    text-shadow: 2px 2px #333333;
 }
 
 .carousel-caption-dark {
     bottom: 3rem;
     z-index: 10;
     color: #333333;
+    text-shadow: none;
 }
 
 .text-dark {
@@ -131,6 +133,7 @@ nav {
 
     #third-caption {
 	color: #333333;
+	text-shadow: none;
     }
     .social-media > a {
 	color: #333333;
